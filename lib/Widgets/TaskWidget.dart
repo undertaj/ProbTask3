@@ -19,7 +19,7 @@ class TaskWidget extends StatelessWidget {
                 decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: Color(0xFFEEEEEE))
+                    border: Border.all(color: const Color(0xFFEEEEEE))
                 ),
               ),
               Positioned(
@@ -30,13 +30,13 @@ class TaskWidget extends StatelessWidget {
                   width: 100,
                   decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFFF6EDD2)
+                      color: Color(0xFFF6EDD2),
                   ),
                 ),
               ),
               ],
             ),
-        SizedBox(width: 10,)
+        const SizedBox(width: 10,)
       ],
     );
   }
